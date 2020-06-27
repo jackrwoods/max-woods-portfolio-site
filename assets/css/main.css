@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background: #45252B;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2564,7 +2564,6 @@ input, select, textarea {
 
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
-					border-top: solid 2px;
 					font-size: 2.5em;
 					font-weight: 900;
 					letter-spacing: 0.2em;
@@ -2572,6 +2571,10 @@ input, select, textarea {
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
+				}
+
+				#banner .inner header {
+					border-top: solid 2px;
 				}
 
 			#banner .inner p {
@@ -2641,7 +2644,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		background: #45252B;
 		color: #7c8081;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
